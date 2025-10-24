@@ -25,7 +25,7 @@ public class CheckBox {
 				System.out.println("checkbox is selected");
 				
 			} else {
-				System.out.println("checkbox is not selectedddd");
+				System.out.println("checkbox is not selecteddd");
 				
 			}
 		}
