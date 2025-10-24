@@ -14,17 +14,14 @@ public class DropDown {
 
 		driver.manage().window().maximize();
 		driver.get("file:///C:/Users/MEDA/Downloads/dropdown.html");
-		
+
 		List<WebElement> Wl = driver.findElements(By.xpath("//select/option"));
-        int count = Wl.size();
-       
-        
-       Select S1 = new Select(driver.findElement(By.xpath("//select")));
-       S1.selectByIndex(count-2);
-       
-       
-       
-       
+		int count = Wl.size();
+
+		Select S1 = new Select(driver.findElement(By.xpath("//select")));
+		S1.selectByIndex(count - 2);
+		driver.quit();
+
 	}
 
 }
