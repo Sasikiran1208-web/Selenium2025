@@ -18,7 +18,7 @@ public class List2 {
 		for (WebElement x : li) {
 			x.sendKeys("Sasi Kirannnn");
 		}
-		System.out.println("Hello child branchsss");
+		System.out.println("Hello child branchss");
 	}
 
 }
