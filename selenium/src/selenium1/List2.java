@@ -16,7 +16,7 @@ public class List2 {
 		List<WebElement> li = driver.findElements(By.xpath("//form/input"));
         
 		for (WebElement x : li) {
-			x.sendKeys("Sasi Kirannn");
+			x.sendKeys("Sasi Kirannnn");
 		}
 	}
 
